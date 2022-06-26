@@ -1,0 +1,114 @@
+! Colours
+! black + DarkGrey
+*.color0:       #171717
+*.color8:       #38252c
+! DarkRed + red
+*.color1:       #D86055
+*.color9:       #ff0000
+! DarkGreen + green
+*.color2:       #97d01a
+*.color10:      #76b639
+! DarkYello + yellow
+*.color3:       #e1a126
+*.color11:      #ece169
+! DarkBlue + blue
+*.color4:       #2d2dd8
+*.color12:      #289cd5
+! DarkMagenta + magenta
+*.color5:       #ff2491
+*.color13:      #a0175b
+! DarkCyan + cyan
+*.color6:       #0fdcb6
+*.color14:      #0cb395
+! LightGrey + white
+*.color7:       #616161
+*.color15:	    #cecece
+! special colours
+*.foreground:   #ededed
+*.background:   #050505
+*.cursorColor:  #e0e0e0
+
+! Font settings
+Xft*antialias:			1
+Xft*hinting:			medium
+Xft.hintstyle:			hintlight
+Xft*.lcdfilter:			lcddefault
+
+! XTerm
+xterm*termname:			xterm-color
+xterm*utf8:				1
+
+! Xclock
+xclock*hourColor:		blue
+xclock*minuteColor:		blue
+xclock*secondColor:		blue
+xclock*majorColor:		white
+xclock*minorColor:		blue
+xclock*buffer:			true
+xclock*background:		black
+
+! Mouse Theme
+Xcursor*theme:			Obsidian
+URxvt.bitdepth:			32
+Urxvt.depth:			32
+URxvt.geometry:			80x24+0+0
+! Rxvt font options
+!rxvt*font:				*-iso10646-1
+!rxvt*font:				-*-freemono-medium-*-*-*-17-*-*-*-*-*-iso10646-*
+!URxvt.font:			-*-candara-*-*-*-*-*-*-*-*-*-*-iso10646-1
+!URxvt.font:			-*-dejavu sans mono-*-*-*-*-*-*-*-*-*-*-iso10646-1
+!URxvt.font:			xft:Liberation Mono:pixelsize=12
+!URxvt.boldFont:		xft:Liberation Mono:bold:pixelsize=12
+!Urxvt.italicFont:		xft:Liberation Mono:italic:pixelsize=12
+!Urxvt.boldItalicFont:	xft:Liberation Mono:bold:italic:pixelsize=12
+URxvt.font:				xft:Iosevka:pixelsize=12
+URxvt.boldFont:			xft:Iosevka:bold:pixelsize=12
+Urxvt.italicFont:		xft:Iosevka:italic:pixelsize=12
+Urxvt.boldItalicFont:	xft:Iosevka:bold:italic:pixelsize=12
+urxvt.background:		rgba:0000/0000/0000/e665
+urxvt*depth: 32
+!urxvt.background:		#120d11
+urxvt.foreground:		#fcfbf9
+URxvt.transparent:		true
+URxvt.shading:			20
+URxvt.fading:			30
+URxvt.fadeColor:		#120d11
+URxvt.pointerColor:		#ef2929
+URxvt.pointerColor2:	black
+URxvt.pointerBlank:		true
+URxvt.colorBD:			#ef2929
+URxvt.colorUL:			#f57900
+URxvt.colorIT:			#ce5c00
+URxvt.scrollBar:		false
+URxvt.scrollColor:		#4882c7
+URxvt.scrollstyle:		plain
+URxvt.jumpScroll:		0
+URxvt.throughColor:		red
+URxvt.borderColor:		#fcfbf9
+URxvt.iconName:			urxvt
+URxvt.saveLines:		3000
+URxvt.internalBorder:	0
+URxvt.externalBorder:	0
+URxvt.termName:			rxvt-unicode-256color
+Urxvt.cutchars:			`"'&()*,;<=>?@[]{|}$`
+URxvt.hold:				true
+URxvt.loginShell:		true
+URxvt.perl-ext-common:	default,matcher,url-select
+URxvt.keysym.M-C-u:		perl:url-select:select_next
+URxvt.url-select.autocopy: true
+URxvt.url-select.button: 2
+URxvt.url-select.launcher: firefox
+URxvt.url-select.underline: true
+!URxvt.matcher.button:	1
+!URxvt.perl-ext:	    tabbed,matcher
+!configure here the look of the tab bar
+URxvt.tabbed.tabbar-fg:	7
+URxvt.tabbed.tabbar-bg:	0
+URxvt.tabbed.tab-fg:	6
+URxvt.tabbed.tab-bg:	0
+! select input method (may be different from locale)
+!URxvt.imlocale:		it_IT.UTF-8
+
+! Lalcal
+lalcal*format:			%a %e %b %l.%M%P
+lalcal*width:			140
